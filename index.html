@@ -282,7 +282,7 @@ button:hover, a:hover {
 
     async function populate() {
 
-      const requestURL = './data/json/index.json';
+      const requestURL = './data/json/team.json';
       const request = new Request(requestURL);
 
       const response = await fetch(request);
@@ -296,7 +296,7 @@ button:hover, a:hover {
     function populateHeader(obj) {
       const header = document.querySelector('header');
       const myH1 = document.createElement('h1');
-      myH1.textContent = obj['squadName'];
+      myH1.textContent = obj['titel'];
       header.appendChild(myH1);
 
       const myPara = document.createElement('p');
