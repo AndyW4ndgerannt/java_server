@@ -1,12 +1,11 @@
 {
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
+  "titel" : "Our Team",
+  "homeTown" : "Lebach",
+  "since" : 2022,
   "active" : true,
   "members" : [
     {
-      "name" : "Molecule Man",
+      "name" : "Andy Ge",
       "age" : 29,
       "secretIdentity" : "Dan Jukes",
       "powers" : [
@@ -16,9 +15,9 @@
       ]
     },
     {
-      "name" : "Madame Uppercut",
+      "name" : "Tim Tommersen",
       "age" : 39,
-      "secretIdentity" : "Jane Wilson",
+      "position" : "Jane Wilson",
       "powers" : [
         "Million tonne punch",
         "Damage resistance",
@@ -26,7 +25,7 @@
       ]
     },
     {
-      "name" : "Eternal Flame",
+      "name" : "Captain Homo",
       "age" : 1000000,
       "secretIdentity" : "Unknown",
       "powers" : [
